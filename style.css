@@ -1,35 +1,41 @@
 .card {
-    background-color: #f8f9fa; /* Default card background */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+  background-color: #f8f9fa; /* Default card background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 #button {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.7s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid #57cc99;
-    background: #57cc99;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #57cc99;
+  background: #57cc99;
 }
 
-.card{
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 128, 255, 0.7); 
-    transition: box-shadow 0.3s ease;
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 128, 255, 0.7);
+  transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-    box-shadow: 0 0 40px rgba(0, 128, 255, 1); 
-  }
+  box-shadow: 0 0 40px rgba(0, 128, 255, 1);
+}
 
+h1.pt-3 {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
